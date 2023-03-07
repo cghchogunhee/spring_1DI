@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 import lombok.Setter;
 
-@Component
+@Component(value="controller")
 public class Buy2Controller {
 	@Autowired		//이미 만들어진 Buy2Service 객체(Bean)을 자동 주입
 	private Buy2Service service;
