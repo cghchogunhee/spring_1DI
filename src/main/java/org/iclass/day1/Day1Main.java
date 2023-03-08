@@ -19,7 +19,6 @@ public class Day1Main {
 		BuyService service2 = new BuyService(dao2);
 		BuyController controller2 = new BuyController(service2);
 		controller2.buy();
-		
 	}
 //스프링에서는 1),2)에 해당하는 의존객체 설정을 자동으로 한다.
 }
